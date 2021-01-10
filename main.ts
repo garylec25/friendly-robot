@@ -1,9 +1,17 @@
 input.onButtonPressed(Button.A, function on_button_pressed_a() {
     basic.showIcon(IconNames.Heart)
+    basic.showIcon(1100)
+    basic.showString("A if even")
+    basic.showString("B if odd")
+    basic.showNumber(randint(0, 100))
 })
 input.onButtonPressed(Button.B, function on_button_pressed_b() {
     basic.showIcon(IconNames.Sad)
+    basic.showIcon(1100)
+    basic.showString("A if even")
+    basic.showString("B if odd")
+    basic.showNumber(randint(0, 100))
 })
 basic.showString("A if even")
-basic.showString("B ifodd")
+basic.showString("B if odd")
 basic.showNumber(randint(0, 100))
